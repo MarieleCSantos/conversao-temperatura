@@ -40,5 +40,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            fabricioveronez/aula-conversao-temperatura:v1            
-            fabricioveronez/aula-conversao-temperatura:latest
+            marielecsantos/aula-conversao-temperatura:${{github.run_number}}            
+            marielecsantos/aula-conversao-temperatura:latest
